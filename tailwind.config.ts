@@ -1,5 +1,8 @@
 import type { Config } from "tailwindcss";
 
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const {fontFamily} = require("tailwindcss/defaultConfig")
+
 const config: Config = {
     darkMode: ["class"],
     content: [
@@ -9,6 +12,9 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+		fontFamily:{
+			sans:["var(--font-sans)", ...fontFamily.sans],
+		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
