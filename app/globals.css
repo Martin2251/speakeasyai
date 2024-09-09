@@ -102,4 +102,9 @@ body {
 
     @apply text-2xl lg:text-4xl font-medium
   }
+
+  a{
+    @apply hover:cursor-pointer
+  }
+
 }
