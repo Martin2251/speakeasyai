@@ -86,9 +86,7 @@ body {
   * {
     @apply border-border;
   }
-  body {
-    @apply bg-background text-foreground;
-  }
+  
 
   h1{
     @apply text-4xl md:text-6xl xl:text-7xl font-bold
