@@ -14,7 +14,9 @@ const Header = () => {
         </span>
     </Link>
     </div>
-    <div className='flex lg:justify-center gap-2 lg:gap-12 lg:items-center'></div>
+    <div className='flex lg:justify-center gap-2 lg:gap-12 lg:items-center'>
+        <Link href="/#pricing"></Link>
+    </div>
 
   </nav>
   )
